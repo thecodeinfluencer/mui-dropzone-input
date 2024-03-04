@@ -1,0 +1,24 @@
+.main-wrapper {
+  display: flex;
+}
+
+
+.MuiDropzoneInput-TextField input + span,
+.MuiDropzoneInput-TextField .MuiDropzoneInput-Typography-size-text,
+.MuiDropzoneInput-TextField svg {
+  color: var(--ifm-color-black);
+}
+
+[data-theme="dark"] .MuiDropzoneInput-TextField input + span,
+[data-theme="dark"] .MuiDropzoneInput-TextField .MuiDropzoneInput-Typography-size-text,
+[data-theme="dark"] .MuiDropzoneInput-TextField svg {
+  color: var(--ifm-color-white);
+}
+
+.MuiDropzoneInput-TextField fieldset {
+  border-color: var(--ifm-color-black)!important;
+}
+
+[data-theme="dark"] .MuiDropzoneInput-TextField fieldset {
+  border-color: var(--ifm-color-white)!important;
+}
